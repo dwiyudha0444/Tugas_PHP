@@ -131,11 +131,11 @@
 
     //Tentukan tunjangan keluarga (if multi kondisi)
     if($status == "menikah" && $jml_anak <= 2){
-        $tunkel =  $gapok * 00.5 ;
+        $tunkel =  $gapok * 0.05 ;
     } else if ($status == "menikah" && ($jml_anak >= 3 && $jml_anak <= 5)){
-        $tunkel = ( $gapok * 10 ) / 100;
+        $tunkel = ( $gapok * 0.1 ;
     } else if ($status == "menikah" && $jml_anak >= 5){
-        $tunkel = ( $gapok * 15 ) / 100;
+        $tunkel = ( $gapok * 0.15;
     } else {
         $tunkel = 0;
     }
